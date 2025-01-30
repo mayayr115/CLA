@@ -17,7 +17,7 @@ print("Float d:", d)
 # type() function
 # You can use the type() function to check the data type of a variable.
 print("Type of a:", type(a))
-print("Type of c:", type(a + c))
+print("Type of c:", type(c))
 
 # Strings
 # Strings are sequences of characters enclosed in quotes.

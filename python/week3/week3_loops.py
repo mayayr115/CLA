@@ -43,7 +43,7 @@ for i in range(1, 6):
 
 *** while loops ***
 
-You write a while loop for iterating until a condition is False. The while loop will only begin when that codition is True.
+You write a while loop for iterating until a condition is False. The while loop will only begin when that condition is True.
 Here's an example of how a simple for loop is done:
 
 ------------
