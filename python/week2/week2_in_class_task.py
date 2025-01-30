@@ -7,7 +7,7 @@ We will go over error handling in a future class.
 
 print("Input a number: ")
 a = int(input()) # input() returns a string even if a number is put in, so we convert it to an integer using int()
-if (a % 4 == 0 or a % 100 != 0 and a % 400 == 0):
+if (a % 4 == 0 and a % 100 != 0 or a % 400 == 0):
     print("Leap Year")
 else:
     print("Not Leap Year")
