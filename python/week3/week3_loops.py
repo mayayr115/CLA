@@ -13,7 +13,7 @@ for element in iterable:
 
 --------    
 
-In the above case, the variable "element" represents a single variale in the "iterable" object.
+In the above case, the variable "element" represents a single variable in the "iterable" object.
 The for loop will exit once all items in the iterable have been processed.
 An example of an iterable is a string or a list.
 

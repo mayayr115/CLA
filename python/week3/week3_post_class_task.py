@@ -20,4 +20,11 @@ Hints
 
 print("Input a string: ")
 val = str(input())
-
+reverse = val[::-1]
+idx = 0
+while idx < len(val):
+    if (val[idx] == reverse[idx]):
+        print('True')
+    else:
+        print('False')
+    break
