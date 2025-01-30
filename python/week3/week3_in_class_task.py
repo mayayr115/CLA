@@ -37,3 +37,4 @@ for num in range(1, val+1):
         print("Buzz")
     else:
         print(num)
+print('\n') # New Line

@@ -27,4 +27,5 @@ while idx < len(val):
         print('True')
     else:
         print('False')
+    print('\n') # New Line
     break
