@@ -20,6 +20,7 @@ Hints
 
 print("Input a string: ")
 val = str(input())
+print() # New Line
 reverse = val[::-1]
 idx = 0
 while idx < len(val):
@@ -27,5 +28,4 @@ while idx < len(val):
         print('True')
     else:
         print('False')
-    print('\n') # New Line
     break

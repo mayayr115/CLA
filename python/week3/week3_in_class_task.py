@@ -27,7 +27,7 @@ FizzBuzz
 
 print("Input a number: ")
 val = int(input())
-print('\n') # New Line Break
+print() # New Line
 for num in range(1, val+1):
     if (num % 3 == 0 and num % 5 == 0):
         print("FizzBuzz")
@@ -37,4 +37,3 @@ for num in range(1, val+1):
         print("Buzz")
     else:
         print(num)
-print('\n') # New Line
