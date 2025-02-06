@@ -20,12 +20,30 @@ Hints
 
 print("Input a string: ")
 val = str(input())
-reverse = val[::-1]
+reverse = val[-1]
 idx = 0
 while idx < len(val):
     if (val[idx] == reverse[idx]):
-        print('True')
+        print(True)
     else:
-        print('False')
+        print(False)
+    break
+print() # New Line
+
+
+# Two Pointer Method
+print("Input a string: ")
+val = str(input())
+beg = 0
+end = len(val) - 1
+answer = True
+while beg < end:
+    if (val[beg] != val[end]):
+        answer = False
+        print(False)
+        break
+    beg += 1
+    end -= 1
+    print(True)
     break
 print() # New Line
