@@ -18,3 +18,6 @@ function solution(message, n) {
     };
     return message.join('');
 };
+
+console.log(solution('CodeSignal', 3))
+console.log(solution('Quiz, Citizenship, puZZle', 5))
