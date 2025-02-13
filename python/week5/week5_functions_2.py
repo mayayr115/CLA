@@ -54,7 +54,7 @@ This is the keyword equivalent to (*args).
 Note, for keyword arguments, you need to have 2 stars (**).
 
 When you use the keyword argument in the function, they're very similar to dictionaries (dict). The key is the keyword, and the value
-is the value assined to the keyword.
+is the value assigned to the keyword.
 
 For example, let's give this function:
 
