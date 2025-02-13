@@ -20,3 +20,14 @@ build_profile(name="Bob", occupation="Software Engineer")
 # Occupation: Software Engineer
  
 """
+
+def build_profile(**info):
+    for key, value in info.items(): 
+        print(key + ":", value)
+    return 
+
+print()
+build_profile(name="Alice", age=30, city="New York")
+print()
+build_profile(name="Bob", occupation="Software Engineer")
+print()
