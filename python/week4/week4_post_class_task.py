@@ -22,17 +22,15 @@ import random
 
 # Write your function here....
 def function():
+    print('Input a number: ')
+    num = int(input())
+    rand = random.randint(1, 100)
     if (num < rand):
-        return print('Your number is too low. The number was ' + str(rand) + '.')
+        return 'Your number is too low. The number was ' + str(rand) + '.'
     elif (num > rand):
-        return print('Your number is too high. The number was ' + str(rand) + '.')
+        return 'Your number is too high. The number was ' + str(rand) + '.'
     else:
-        return print('Correct!')
+        return 'Correct!'
 
-print('Input a number: ')
-num = int(input())
-rand = random.randint(1, 100)
-while (num != rand):
-    function()
-
+print(function())
 print()
