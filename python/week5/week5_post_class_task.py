@@ -23,11 +23,10 @@ build_profile(name="Bob", occupation="Software Engineer")
 
 def build_profile(**info):
     for key, value in info.items(): 
-        print(key + ":", value)
-    return 
+        print(key.capitalize() + ":", value.capitalize() if type(value) == str else value)
 
 print()
-build_profile(name="Alice", age=30, city="New York")
+build_profile(name="alice", age=30, city="new york")
 print()
-build_profile(name="Bob", occupation="Software Engineer")
+build_profile(name="bob", occupation="software engineer")
 print()
