@@ -16,7 +16,13 @@ Output: [25, 30, 35, 40]
 
 """
 
+def task1(nums):
+    newList = list(set(nums))
+    newList.sort()
+    return newList
 
+print(task1([1, 2, 2, 3, 4, 4, 5]))
+print(task1([25, 25, 30, 35, 40]))
 
 
 """
@@ -39,6 +45,12 @@ Output: [1,2]
 
 """
 
+def task2(nums, target):
+    sum = 0
+    for i in nums:
+        sum += i
+        if sum == target:
+            return 'Hi'
 
-
-
+print(task2([2,7,11,15], 9))
+print(task2([3,2,4], 6))

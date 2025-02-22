@@ -20,7 +20,7 @@ Here's the example syntax:
 my_list = [1, 2, "hello", 3.14, True]  # Mixed data types
 empty_list = []  # An empty list
 
-Note: The word "list" and "array" are used interchangably. However there is a difference in Python.
+Note: The word "list" and "array" are used interchangeably. However there is a difference in Python.
 You should almost always use a list, as described in this class. Arrays are technically different,
 which uses the array.arrays module, which is not mutable and optimized for memory efficiency.
 
