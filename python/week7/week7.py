@@ -11,6 +11,22 @@ PROBLEM 1: Move Zeros
 https://leetcode.com/problems/move-zeroes/description/ 
 """
 
+def moveZeros(nums):
+    popped = []
+    # Iterate backwards to avoid index shifting issues
+    # Skeleton: range(start, stop, step)
+    for i in range(len(nums) - 1, -1, -1):
+        if nums[i] == 0:
+            nums.pop(i)  # Remove zero
+            popped.append(0)  # Store it separately
+    # Append all removed zeros at the end
+    # .extend() adds specified list items to another list
+    nums.extend(popped)
+    return nums
+
+print(moveZeros([0,1,0,3,12])) # Answer: [1,3,12,0,0]
+print(moveZeros([0,1,4,0,9,0,12,7])) # Answer: [1,4,7,9,12,0,0,0]
+
 """
 PROBLEM 2: Valid Parentheses
 https://leetcode.com/problems/valid-parentheses/description/
