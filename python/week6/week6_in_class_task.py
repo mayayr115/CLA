@@ -50,7 +50,9 @@ def task2(nums, target):
     for i in nums:
         sum += i
         if sum == target:
-            return 'Hi'
+            return i
+        elif sum > target:
+            sum -= i
 
 print(task2([2,7,11,15], 9))
 print(task2([3,2,4], 6))
